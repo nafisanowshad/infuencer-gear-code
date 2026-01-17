@@ -344,12 +344,12 @@
     font-weight: 600;
     font-size: 0.84rem;
   }
-  .products-btn{
+  .products-btn {
     margin-top: 20px;
     margin-left: 126px;
     margin-bottom: 13px;
   }
-  .product-content img{
+  .product-content img {
     width: 100%;
     margin-bottom: -10px;
   }
@@ -358,5 +358,320 @@
   }
   .product-content {
     flex-direction: column-reverse;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .nav-container {
+    flex-direction: column;
+    padding: 19px 15px;
+  }
+  .nav-left h3 {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 32px;
+  }
+  .nav-right a {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 18px;
+  }
+  .nav-right .p,
+  .s,
+  .l,
+  .search {
+    visibility: hidden;
+  }
+  .hero-container {
+    flex-direction: column-reverse;
+    margin-top: -50px;
+    padding: 19px 16px;
+  }
+  .hero-image {
+    margin-top: 70px;
+    height: 270px;
+    background-size: contain, 70%;
+    background-position: center bottom, center;
+  }
+  .hero-text h2 {
+    margin-top: 60px;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 40px;
+  }
+  .hero-text p {
+    font-weight: 500;
+    font-size: 0.85rem;
+    line-height: 22px;
+  }
+  .company-container {
+    margin-top: 5px;
+    padding: 19px 16px;
+    margin-bottom: 5px;
+  }
+  .company-card {
+    grid-template-columns: repeat(4, 1fr);
+    padding: 14px 9px;
+    gap: 10px;
+  }
+  .company-card img {
+    height: 46px;
+    width: 78px;
+    gap: 3px;
+  }
+  .body-container {
+    padding: 19px 18px;
+  }
+  .body-content {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 22px;
+    margin-left: 24px;
+  }
+  .body-btn {
+    margin-top: -5px;
+    margin-left: 0;
+  }
+  .product-content {
+    padding: 19px 18px;
+  }
+  .product-info h2 {
+    margin-top: -37px;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 45px;
+  }
+  .product-content p {
+    font-weight: 600;
+    font-size: 0.84rem;
+  }
+  .products-btn {
+    margin-top: 20px;
+    margin-left: 149px;
+    margin-bottom: 13px;
+  }
+  .product-content img {
+    width: 100%;
+    margin-bottom: -10px;
+  }
+  .footer-section {
+    width: 100%;
+  }
+  .product-content {
+    flex-direction: column-reverse;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .nav-container {
+    flex-direction: column;
+    padding: 19px 15px;
+  }
+  .nav-left h3 {
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 32px;
+  }
+  .nav-right a {
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 18px;
+  }
+  .nav-right .p,
+  .s,
+  .l,
+  .search {
+    visibility: hidden;
+  }
+  .hero-container {
+    flex-direction: column-reverse;
+    margin-top: -50px;
+    padding: 19px 16px;
+  }
+  .hero-image {
+    margin-top: 70px;
+    height: 270px;
+    background-size: contain, 70%;
+    background-position: center bottom, center;
+  }
+  .hero-text h2 {
+    margin-top: 70px;
+    font-size: 2.3rem;
+    font-weight: 600;
+    line-height: 40px;
+  }
+  .hero-text p {
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 0.89rem;
+    line-height: 22px;
+  }
+  .company-container {
+    margin-top: 8px;
+    padding: 19px 16px;
+    margin-bottom: 8px;
+  }
+  .company-card {
+    grid-template-columns: repeat(4, 1fr);
+    padding: 14px 9px;
+    gap: 13px;
+  }
+  .company-card img {
+    height: 46px;
+    width: 78px;
+    gap: 3px;
+  }
+  .body-container {
+    padding: 19px 18px;
+  }
+  .body-content {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 24px;
+    margin-left: 27px;
+  }
+  .body-btn {
+    margin-top: -5px;
+    margin-left: 0;
+    font-size: 28px;
+  }
+  .product-content {
+    padding: 19px 18px;
+  }
+  .product-info h2 {
+    margin-top: -37px;
+    font-size: 2.1rem;
+    font-weight: 600;
+    line-height: 45px;
+  }
+  .product-content p {
+    font-weight: 600;
+    font-size: 0.88rem;
+  }
+  .products-btn {
+    margin-top: 20px;
+    margin-left: 367px;
+    margin-bottom: 13px;
+  }
+  .product-content img {
+    width: 100%;
+    margin-bottom: -10px;
+  }
+  .footer-section {
+    width: 100%;
+  }
+  .product-content {
+    flex-direction: column-reverse;
+  }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  .nav-container {
+    flex-direction: column;
+    padding: 19px 15px;
+  }
+  .nav-left h3 {
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 32px;
+  }
+  .nav-right a {
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 22px;
+  }
+  .nav-right .p,
+  .s,
+  .l,
+  .search {
+    visibility: hidden;
+  }
+  .hero-container {
+    flex-direction: column-reverse;
+    margin-top: -50px;
+    padding: 19px 16px;
+  }
+  .hero-image {
+    margin-top: 80px;
+    height: 470px;
+    background-size: contain, 70%;
+    background-position: center bottom, center;
+  }
+  .hero-text h2 {
+    margin-top: 90px;
+    font-size: 2.7rem;
+    font-weight: 600;
+    line-height: 42px;
+  }
+  .hero-text p {
+    margin-top: 45px;
+    font-weight: 500;
+    font-size: 0.93rem;
+    line-height: 22px;
+  }
+  .company-container {
+    margin-top: 10px;
+    padding: 19px 16px;
+    margin-bottom: 10px;
+  }
+  .company-card {
+    font-size: 3.98rem;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 14px 9px;
+    gap: 16px;
+  }
+  .company-card img {
+    height: 46px;
+    width: 78px;
+    gap: 3px;
+  }
+  .body-container {
+    padding: 19px 18px;
+  }
+  .body-content {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 26px;
+    margin-left: 31px;
+  }
+  .body-btn {
+    margin-top: -8px;
+    margin-left: 0;
+    font-size: 30px;
+  }
+  .product-content {
+    padding: 19px 18px;
+  }
+  .product-info h2 {
+    margin-top: -37px;
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 45px;
+  }
+  .product-content p {
+    font-weight: 600;
+    font-size: 0.93rem;
+  }
+  .products-btn {
+    margin-top: 20px;
+    margin-left: 387px;
+    margin-bottom: 16px;
+  }
+  .product-content img {
+    width: 100%;
+    margin-bottom: -10px;
+  }
+  .footer-section {
+    width: 100%;
+  }
+  .product-content {
+    flex-direction: column-reverse;
+  }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1600px) {
+  .footer-container {
+    width: 100%;
+  }
+  .body-btn {
+    margin-top: -8px;
+    margin-left: 0;
   }
 }
